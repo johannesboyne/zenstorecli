@@ -1,0 +1,22 @@
+{
+  "name": "zenstorecli",
+  "version": "0.0.0",
+  "description": "A simple CLI to write and receive data to and from zenstore",
+  "main": "index.js",
+  "bin": {
+      "zenstorecli": "bin/cmd.js"    
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "zenstore"
+  ],
+  "author": "Johannes Boyne <johannes@boyne.de>",
+  "license": "MIT",
+  "dependencies": {
+    "tap": "~0.4.8",
+    "yargs": "~1.1.2",
+    "colors": "~0.6.2"
+  }
+}

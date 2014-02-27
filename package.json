@@ -15,7 +15,7 @@
     "tap": "~0.4.8",
     "yargs": "~1.1.2",
     "colors": "~0.6.2",
-    "zenstorejs": "0.0.1"
+    "zenstorejs": "*"
   },
   "repository": {
     "type": "git",

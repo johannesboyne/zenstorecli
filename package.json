@@ -1,8 +1,7 @@
 {
   "name": "zenstorecli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple CLI to write and receive data to and from zenstore",
-  "main": "index.js",
   "bin": {
     "zenstorecli": "bin/cmd.js"
   },
@@ -15,7 +14,7 @@
     "tap": "~0.4.8",
     "yargs": "~1.1.2",
     "colors": "~0.6.2",
-    "zenstorejs": "*"
+    "zenstorejs": ">0.0.3"
   },
   "repository": {
     "type": "git",
